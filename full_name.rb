@@ -5,5 +5,5 @@ middle = gets.chomp
 puts "what's your last name?"
 last = gets.chomp
 myarray = [first,middle,last]
-name = myarray.inspect
+name = myarray.join(" ")
 puts "Hello #{name}!"
